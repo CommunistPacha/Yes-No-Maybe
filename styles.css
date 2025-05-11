@@ -99,3 +99,21 @@ body {
     background-color: #ff6b81;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 20px;
+        max-width: 95%;
+    }
+    .header_text {
+        font-size: 28px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
